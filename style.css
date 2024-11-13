@@ -1,0 +1,70 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #f1f1f1;
+}
+
+/* Container do formulário */
+.form-container {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input:focus, select:focus, button:focus {
+    outline: none;
+    background-color: #555;
+}
+
+/* Botão */
+button {
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+/* Resultados */
+.result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.result span {
+    font-weight: bold;
+    color: #41a870;
+}
